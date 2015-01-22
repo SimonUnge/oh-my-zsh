@@ -10,6 +10,7 @@ export MARKPATH=$HOME/.marks
 
 jump() {
 	cd -P "$MARKPATH/$1" 2>/dev/null || {echo "No such mark: $1"; return 1}
+        source env.sh &> /dev/null;
 }
 
 mark() {
