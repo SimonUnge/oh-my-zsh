@@ -4,3 +4,4 @@ alias j=jump
 alias open=xdg-open
 alias te='emacsclient -n'
 alias addssh='eval `ssh-agent -s`; ssh-add'
+alias dmake='DEBUG_TEST=true make'

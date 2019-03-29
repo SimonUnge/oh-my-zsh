@@ -38,3 +38,7 @@ yang() {
         emacsclient -n $name
     fi
 }
+
+ncs-source() {
+    source ~/work/releases/nso-${1}/ncsrc
+}
